@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Glitch Guy</title>
+	<style>
+	body {
+		margin: 0; padding: 0
+		-webkit-user-select: none;
+		-moz-user-select: -moz-none;
+		-ms-user-select: none;
+		user-select: none;
+		text-align: center;
+		background-color: black;
+	}
+	canvas {
+		image-rendering: optimizeSpeed;
+		image-rendering: -moz-crisp-edges;
+		image-rendering: -webkit-optimize-contrast;
+		image-rendering: optimize-contrast;
+		image-rendering: pixelated;
+		-ms-interpolation-mode: nearest-neighbor;
+	}
+	</style>
+</head>
+<body>
+	<canvas id="g" width="800" height="480" oncontextmenu="return false;">
+	<script type="text/javascript" src="lib/jsfxr.js"></script>
+	<script type="text/javascript" src="engine/util.js"></script>
+	<script type="text/javascript" src="engine/Renderer.js"></script>
+	<script type="text/javascript" src="engine/Time.js"></script>
+	<script type="text/javascript" src="engine/Mouse.js"></script>
+	<script type="text/javascript" src="engine/Screen.js"></script>
+	<script type="text/javascript" src="engine/AssetManager.js"></script>
+	<script type="text/javascript" src="engine/AudioManager.js"></script>
+	<script type="text/javascript" src="engine/Keyboard.js"></script>
+	<script type="text/javascript" src="engine/Entity.js"></script>
+	<script type="text/javascript" src="engine/Sprite.js"></script>
+	<script type="text/javascript" src="engine/Animation.js"></script>
+	<script type="text/javascript" src="engine/Game.js"></script>
+	<script type="text/javascript" src="entities/Hero.js"></script>
+	<script type="text/javascript" src="entities/Gun.js"></script>
+	<script type="text/javascript" src="entities/Core.js"></script>
+	<script type="text/javascript" src="entities/Bullet.js"></script>
+	<script type="text/javascript" src="entities/Enemy.js"></script>
+	<script type="text/javascript" src="states/MenuState.js"></script>
+	<script type="text/javascript" src="states/PlayState.js"></script>
+	<script type="text/javascript" src="states/GameOverState.js"></script>
+	<script type="text/javascript" src="GlitchGuyGame.js"></script>
+</body>
+</html>
