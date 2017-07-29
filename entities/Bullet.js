@@ -2,7 +2,7 @@ var Bullet = function(game, owner, angle) {
 	Entity.call(this, game, owner.x, owner.y, 10, 5);
 	this.owner = owner;
 	this.angle = angle;
-	this.speed = 500;
+	this.speed = 100;
 	
 	this.scale = 4;
 	this.sprite = new Sprite(game, game.assetManager.assets.bullet, 3, 2);
