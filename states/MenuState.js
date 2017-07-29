@@ -4,7 +4,7 @@ var MenuState = function(game) {
 
 	this.buttons = {
 		start: {
-			text: "START",
+			text: "STAT",
 			fontSize: "20px",
 			rx: self.game.screen.hw - 75,
 			ry: 300,
